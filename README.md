@@ -39,15 +39,8 @@ Designed for **CNSA 2.0** compliance ahead of the January 2027 mandate for all N
 
 ---
 
-## Building
 
-```bash
-git clone --recurse-submodules https://github.com/mai-industries/testudo
-cd testudo
-cmake -B build -DCMAKE_BUILD_TYPE=Release
-cmake --build build && ctest --test-dir build --output-on-failure
-```
 
 ---
 
-*Part of the [da Vinci Stack](https://github.com/mai-industries/davinci) — MAI Industries*
+*Part of the [da Vinci Stack] — MAI Industries*
